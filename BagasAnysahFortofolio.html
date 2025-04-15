@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagas Ferdiansyah - Portfolio</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Georgia', 'Times New Roman', serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            scroll-behavior: smooth;
+        }
+        h1, h2 {
+            font-weight: 600;
+            color: #1e1e1e;
+        }
+        p, ul {
+            font-size: 1.1em;
+        }
+
+        /* Header Styles */
+        header {
+            background: linear-gradient(to right, #000000, #1e3c72); /* Black to Blue Gradient */
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
+        }
+
+        header h1 {
+            font-size: 3.8em;
+            margin: 0;
+            font-family: 'Georgia', serif;
+            color: white; /* Nama warna putih */
+        }
+
+        header p {
+            font-size: 1.3em;
+            margin-top: 10px;
+            color: #f5f5f5;
+        }
+
+        /* Navigation Menu */
+        nav {
+            text-align: center;
+            background-color: #1e3c72;
+            padding: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 25px;
+            font-size: 1.2em;
+            margin: 0 15px;
+            display: inline-block;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #5a8dff;
+        }
+
+        /* Fade In Animation */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Profile Section */
+        .profile-info {
+            text-align: center;
+            padding: 50px;
+            background-color: white;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            margin: -70px 20px 20px 20px;
+            border-radius: 15px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        .profile-info h2 {
+            font-size: 2.4em;
+            color: #333;
+        }
+
+        .profile-info p {
+            font-size: 1.1em;
+            max-width: 600px;
+            margin: 0 auto;
+            color: #666;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 60px 20px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.4em;
+            margin-bottom: 20px;
+            color: #1e1e1e;
+            font-weight: 600;
+        }
+
+        .section-content {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 10px;
+        }
+
+        .section-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .section-content ul li {
+            font-size: 1.2em;
+            color: #555;
+            margin-bottom: 15px;
+        }
+
+        /* Hover Effect on Links */
+        a {
+            text-decoration: none;
+            color: #1e3c72;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #5a8dff;
+        }
+
+        /* Hover Effect on Buttons */
+        button {
+            padding: 10px 20px;
+            font-size: 1.1em;
+            border: none;
+            background-color: #1e3c72;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #5a8dff;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #1e1e1e;
+            color: white;
+            text-align: center;
+            padding: 25px 0;
+            font-size: 1em;
+        }
+
+        footer a {
+            color: #f8f9fa;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #5a8dff;
+        }
+
+        /* Grid Layout for Education & Skills Section */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .grid-item {
+            padding: 20px;
+            background-color: #f7f7f7;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .grid-item:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bagas Ferdiansyah</h1>
+    <p>Web Developer | Content Creator | English Educator</p>
+</header>
+
+<!-- Navigation Menu -->
+<nav>
+    <a href="#about">About Me</a>
+    <a href="#contact">Contact</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="https://www.youtube.com/@bagaasfrrr" target="_blank">YouTube</a>
+    <a href="https://www.instagram.com/bagaasfrrr" target="_blank">Instagram</a>
+    <a href="https://linktr.ee/bagaasfrrr" target="_blank">Linktree</a>
+    <a href="https://wa.me/6289634133779" target="_blank">WhatsApp</a>
+</nav>
+
+<section id="about" class="profile-info">
+    <h2>About Me</h2>
+    <p>As a Bachelor of English Education from a prestigious university, I possess strong skills in technology, effective teamwork, and leadership. My internship experiences and involvement in educational organizations have shaped me to thrive in any working environment.</p>
+</section>
+
+<section id="contact">
+    <h2 class="section-title">Contact Information</h2>
+    <div class="section-content">
+        <p>Address: Metro, Lampung | Phone/WA: 089634133779 | Email: bagasferdiansyah999@gmail.com | Instagram: <a href="https://www.instagram.com/bagaasfrrr" target="_blank">@bagaasfrrr</a></p>
+    </div>
+</section>
+
+<section id="education">
+    <h2 class="section-title">Education</h2>
+    <div class="section-content grid-container">
+        <div class="grid-item">
+            <h3>Institut Agama Islam Negeri Metro</h3>
+            <p>2021 – 2024 | Bachelor of Education in English | GPA: 3.82</p>
+            <ul>
+                <li>Favorite subjects: Public Speaking and Interpersonal Skills</li>
+                <li>Active member of PMII</li>
+            </ul>
+        </div>
+        <div class="grid-item">
+            <h3>SMANegeri 6 Metro</h3>
+            <p>2018 – 2021 | Social Science</p>
+            <ul>
+                <li>Member of IPSI School Organization</li>
+            </ul>
+        </div>
+        <div class="grid-item">
+            <h3>SMP Muhammadiyah 1 Metro</h3>
+            <ul>
+                <li>Board member of IPM and HW organizations</li>
+                <li>1st Place in PBB competition (GLF)</li>
+                <li>1st Place in Futsal competition</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="skills">
+    <h2 class="section-title">Skills</h2>
+    <div class="section-content">
+        <ul>
+            <li>Microsoft Word (Certified)</li>
+            <li>Microsoft Excel (Certified)</li>
+            <li>Microsoft PowerPoint (Certified)</li>
+            <li>English Language (TOEFL)</li>
+            <li>Creative Thinking & Problem Solving</li>
+            <li>Content Creation: Directing, Editing, and Posting (Check Instagram @am_smpn1_punggur and YouTube @Bagaasfrrr)</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Bagas Ferdiansyah | All Rights Reserved</p>
+    <a href="#top">Back to Top</a>
+</footer>
+
+</body>
+</html>
